@@ -23,7 +23,7 @@ const getImageData = async (fileName) => {
   }
 
   const outBuffer = Buffer.from(arr)
-  return arr;
+  return outBuffer;
 
 }
 
